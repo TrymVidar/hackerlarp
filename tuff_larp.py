@@ -3,10 +3,14 @@
 import time
 import random
 
-tuff = input("Enter Target: ")
+input("Enter Target: ")
 print("\n")
 for i in range(20):
   time.sleep(0.15)
-  print("".join(random.choice("01") for _ in range(80)))
-print("**Hack Successfull.**")
-print( 
+  print("".join(random.choice("01") for _ in range(70)))
+print("******Hack Successfull.******")
+larp = input("$ ")
+if larp == "whoami":
+  print("root")
+input("$ ")
+time.sleep(5)
